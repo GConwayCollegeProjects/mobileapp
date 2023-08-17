@@ -1,0 +1,288 @@
+<?xml version="1.0" encoding="utf-8"?>
+<gpx xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:q="http://www.anquet.com" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd" version="1.1" creator="OMN - www.anquet.com" xmlns="http://www.topografix.com/GPX/1/1">
+  <metadata />
+  <rte>
+    <name>Bamford and Stanage Edge</name>
+    <rtept lat="53.368864077900717" lon="-1.6970372032850682">
+      <name>Wp 1</name>
+      <sym>Ball Blue</sym>
+    </rtept>
+    <rtept lat="53.368977753098918" lon="-1.6980285173965717">
+      <name>Wp 2</name>
+      <sym>Ball Blue</sym>
+    </rtept>
+    <rtept lat="53.369524279956494" lon="-1.6978969903080137">
+      <name>Wp 3</name>
+      <sym>Ball Blue</sym>
+    </rtept>
+    <rtept lat="53.3689144583188" lon="-1.698372817809205">
+      <sym>Ball Blue</sym>
+    </rtept>
+    <rtept lat="53.371729942007157" lon="-1.6965453383456746">
+      <name>Wp 4</name>
+      <sym>Ball Blue</sym>
+    </rtept>
+    <rtept lat="53.3739045826215" lon="-1.6979194777024089">
+      <name>Wp 5</name>
+      <sym>Ball Blue</sym>
+    </rtept>
+    <rtept lat="53.375151574628447" lon="-1.6928269428441858">
+      <name>Wp 6</name>
+      <sym>Ball Blue</sym>
+    </rtept>
+    <rtept lat="53.374706554096925" lon="-1.6991014336576862">
+      <name>Wp 7</name>
+      <sym>Ball Blue</sym>
+    </rtept>
+    <rtept lat="53.374804248471811" lon="-1.7026636357243683">
+      <name>Wp 8</name>
+      <sym>Ball Blue</sym>
+    </rtept>
+    <rtept lat="53.376589292138995" lon="-1.7065111678079183">
+      <name>Wp 9</name>
+      <sym>Ball Blue</sym>
+    </rtept>
+    <rtept lat="53.379967649003973" lon="-1.7084923302463573">
+      <name>Wp 10</name>
+      <sym>Ball Blue</sym>
+    </rtept>
+    <rtept lat="53.381917250494261" lon="-1.7070684813612136">
+      <name>Wp 11</name>
+      <sym>Ball Blue</sym>
+    </rtept>
+    <rtept lat="53.383645443547842" lon="-1.7058687565345947">
+      <name>Wp 12</name>
+      <sym>Ball Blue</sym>
+    </rtept>
+    <rtept lat="53.3832404546096" lon="-1.7036443003187554">
+      <name>Wp 13</name>
+      <sym>Ball Blue</sym>
+    </rtept>
+    <rtept lat="53.384970331176248" lon="-1.7040009334363531">
+      <sym>Ball Blue</sym>
+    </rtept>
+    <rtept lat="53.388071890510332" lon="-1.7020185552063598">
+      <name>Wp 14</name>
+      <sym>Ball Blue</sym>
+    </rtept>
+    <rtept lat="53.3918823964004" lon="-1.7022861209219313">
+      <name>Wp 15</name>
+      <sym>Ball Blue</sym>
+    </rtept>
+    <rtept lat="53.388648413906715" lon="-1.698190756587014">
+      <name>Wp 16</name>
+      <sym>Ball Blue</sym>
+    </rtept>
+    <rtept lat="53.3879288069606" lon="-1.6918229905429052">
+      <name>Wp 17</name>
+      <sym>Ball Blue</sym>
+    </rtept>
+    <rtept lat="53.388370970293231" lon="-1.6816231285325032">
+      <name>Wp 18</name>
+      <sym>Ball Blue</sym>
+    </rtept>
+    <rtept lat="53.387713344974713" lon="-1.6768239023044143">
+      <name>Wp 19</name>
+      <sym>Ball Blue</sym>
+    </rtept>
+    <rtept lat="53.387644330771224" lon="-1.6730007356917207">
+      <name>Wp 20</name>
+      <sym>Ball Blue</sym>
+    </rtept>
+    <rtept lat="53.387582494059444" lon="-1.6718246945879569">
+      <name>Wp 21</name>
+      <sym>Ball Blue</sym>
+    </rtept>
+    <rtept lat="53.387520915389075" lon="-1.6707466963604833">
+      <name>Wp 22</name>
+      <sym>Ball Blue</sym>
+    </rtept>
+    <rtept lat="53.387460951706906" lon="-1.6702569443724704">
+      <name>Wp 23</name>
+      <sym>Ball Blue</sym>
+    </rtept>
+    <rtept lat="53.390111636903136" lon="-1.6665441302029616">
+      <name>Wp 24</name>
+      <sym>Ball Blue</sym>
+    </rtept>
+    <rtept lat="53.391304898357539" lon="-1.6646784217879305">
+      <name>Wp 25</name>
+      <sym>Ball Blue</sym>
+    </rtept>
+    <rtept lat="53.392636098581164" lon="-1.6645194539993855">
+      <name>Wp 26</name>
+      <sym>Ball Blue</sym>
+    </rtept>
+    <rtept lat="53.39369511675131" lon="-1.6622833399467738">
+      <name>Wp 27</name>
+      <sym>Ball Blue</sym>
+    </rtept>
+    <rtept lat="53.393413137212676" lon="-1.6567903763065082">
+      <name>Wp 28</name>
+      <sym>Ball Blue</sym>
+    </rtept>
+    <rtept lat="53.392740695745552" lon="-1.6544937864849409">
+      <name>Wp 29</name>
+      <sym>Ball Blue</sym>
+    </rtept>
+    <rtept lat="53.391007446322959" lon="-1.6537652601618171">
+      <name>Wp 30</name>
+      <sym>Ball Blue</sym>
+    </rtept>
+    <rtept lat="53.387056985052027" lon="-1.6537972890793382">
+      <name>Wp 31</name>
+      <sym>Ball Blue</sym>
+    </rtept>
+    <rtept lat="53.387325242773052" lon="-1.6544633481863293">
+      <name>Wp 32</name>
+      <sym>Ball Blue</sym>
+    </rtept>
+    <rtept lat="53.383421524850519" lon="-1.6553115956014057">
+      <name>Wp 33</name>
+      <sym>Ball Blue</sym>
+    </rtept>
+    <rtept lat="53.380192114206061" lon="-1.6591236987081472">
+      <name>Wp 34</name>
+      <sym>Ball Blue</sym>
+    </rtept>
+    <rtept lat="53.376384498195634" lon="-1.6625686482869015">
+      <name>Wp 35</name>
+      <sym>Ball Blue</sym>
+    </rtept>
+    <rtept lat="53.3721743829133" lon="-1.6649770081404218">
+      <name>Wp 36</name>
+      <sym>Ball Blue</sym>
+    </rtept>
+    <rtept lat="53.367913401183323" lon="-1.665084631214542">
+      <name>Wp 37</name>
+      <sym>Ball Blue</sym>
+    </rtept>
+    <rtept lat="53.364281994821994" lon="-1.6602153129514028">
+      <name>Wp 38</name>
+      <sym>Ball Blue</sym>
+    </rtept>
+    <rtept lat="53.362543256559213" lon="-1.657557739593053">
+      <name>Wp 39</name>
+      <sym>Ball Blue</sym>
+    </rtept>
+    <rtept lat="53.359677279829093" lon="-1.6493078001383015">
+      <name>Wp 40</name>
+      <sym>Ball Blue</sym>
+    </rtept>
+    <rtept lat="53.35946248949088" lon="-1.6560700819417333">
+      <name>Wp 41</name>
+      <sym>Ball Blue</sym>
+    </rtept>
+    <rtept lat="53.358883677296141" lon="-1.6586221541565125">
+      <name>Wp 42</name>
+      <sym>Ball Blue</sym>
+    </rtept>
+    <rtept lat="53.358953177663331" lon="-1.6594414821875481">
+      <name>Wp 43</name>
+      <sym>Ball Blue</sym>
+    </rtept>
+    <rtept lat="53.357249239299186" lon="-1.6609865640215846">
+      <name>Wp 44</name>
+      <sym>Ball Blue</sym>
+    </rtept>
+    <rtept lat="53.354917928463387" lon="-1.6608832742434891">
+      <name>Wp 45</name>
+      <sym>Ball Blue</sym>
+    </rtept>
+    <rtept lat="53.354208150316595" lon="-1.6610372835668863">
+      <name>Wp 46</name>
+      <sym>Ball Blue</sym>
+    </rtept>
+    <rtept lat="53.352528345639243" lon="-1.6634988125039079">
+      <name>Wp 47</name>
+      <sym>Ball Blue</sym>
+    </rtept>
+    <rtept lat="53.351649952888941" lon="-1.6668441249773938">
+      <name>Wp 48</name>
+      <sym>Ball Blue</sym>
+    </rtept>
+    <rtept lat="53.352372485090946" lon="-1.6712897708144838">
+      <name>Wp 49</name>
+      <sym>Ball Blue</sym>
+    </rtept>
+    <rtept lat="53.35295522304628" lon="-1.6733625833413854">
+      <name>Wp 50</name>
+      <sym>Ball Blue</sym>
+    </rtept>
+    <rtept lat="53.352518821716345" lon="-1.6761108764790724">
+      <name>Wp 51</name>
+      <sym>Ball Blue</sym>
+    </rtept>
+    <rtept lat="53.352166130219096" lon="-1.6770037960723219">
+      <name>Wp 52</name>
+      <sym>Ball Blue</sym>
+    </rtept>
+    <rtept lat="53.353316588299982" lon="-1.6756596977621883">
+      <name>Wp 53</name>
+      <sym>Ball Blue</sym>
+    </rtept>
+    <rtept lat="53.355452615270394" lon="-1.677646710500394">
+      <name>Wp 54</name>
+      <sym>Ball Blue</sym>
+    </rtept>
+    <rtept lat="53.35395021724014" lon="-1.6801805194578379">
+      <name>Wp 55</name>
+      <sym>Ball Blue</sym>
+    </rtept>
+    <rtept lat="53.3554673045094" lon="-1.683136902756015">
+      <name>Wp 56</name>
+      <sym>Ball Blue</sym>
+    </rtept>
+    <rtept lat="53.357879445762784" lon="-1.6889064292190279">
+      <name>Wp 57</name>
+      <sym>Ball Blue</sym>
+    </rtept>
+    <rtept lat="53.362815689146743" lon="-1.692432392211322">
+      <name>Wp 58</name>
+      <sym>Ball Blue</sym>
+    </rtept>
+    <rtept lat="53.3679650269067" lon="-1.6925437707672242">
+      <name>Wp 59</name>
+      <sym>Ball Blue</sym>
+    </rtept>
+    <rtept lat="53.368940406197261" lon="-1.6920914495769264">
+      <name>Wp 60</name>
+      <sym>Ball Blue</sym>
+    </rtept>
+    <rtept lat="53.371280342952922" lon="-1.6862531472324167">
+      <sym>Ball Blue</sym>
+    </rtept>
+    <rtept lat="53.374929106151775" lon="-1.6797027641031592">
+      <sym>Ball Blue</sym>
+    </rtept>
+    <rtept lat="53.377752314073945" lon="-1.6808606387061522">
+      <sym>Ball Blue</sym>
+    </rtept>
+    <rtept lat="53.38136843531781" lon="-1.6797330979080081">
+      <sym>Ball Blue</sym>
+    </rtept>
+    <rtept lat="53.382920936695115" lon="-1.6802717406247592">
+      <name>Wp 61</name>
+      <sym>Ball Blue</sym>
+    </rtept>
+    <rtept lat="53.383297994525371" lon="-1.6806619826417604">
+      <sym>Ball Blue</sym>
+    </rtept>
+    <rtept lat="53.378524243883881" lon="-1.688400868286922">
+      <sym>Ball Blue</sym>
+    </rtept>
+    <rtept lat="53.3759011614934" lon="-1.6918783596677229">
+      <sym>Ball Blue</sym>
+    </rtept>
+    <rtept lat="53.373988381538759" lon="-1.6974724522053259">
+      <sym>Ball Blue</sym>
+    </rtept>
+    <rtept lat="53.368959076000245" lon="-1.6974294620704213">
+      <name>Wp 62</name>
+      <sym>Ball Blue</sym>
+    </rtept>
+  </rte>
+  <extensions>
+    <q:style>Icon$My Line Style</q:style>
+  </extensions>
+</gpx>

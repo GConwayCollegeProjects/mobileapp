@@ -1,0 +1,488 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+  font-family: 'Raleway', serif;
+  }
+
+main > section {
+  min-height: 500px;
+}
+
+.topnav h2 {
+  position: fixed;
+  margin: auto 43%;
+  display: none;
+}
+
+footer{
+  display: grid;
+  grid-template-columns: repeat(auto-fit, 200px);
+  grid-gap: 0;
+  overflow: hidden;
+  margin: 0;
+  padding: 0;
+  background-color: #048BA8;
+  color: white;
+}
+
+#left-pane {
+  float: left;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  flex-basis: auto;
+  align-items: flex-start;
+  column-gap: 6vw;
+  font-weight: bolder;
+  min-height: 300px;
+  width: 50vw;
+  margin: 0;
+  padding-left: 4vw;
+}
+#left-pane li{
+  list-style: none;
+}
+#left-pane li:nth-child(1) {
+  color: red; 
+}
+#right-pane {
+  float: left;
+  min-height: 300px;
+  width: 50vw;
+  margin: 0;
+  padding: 0;
+}
+
+#right-pane a {
+  color: white;
+  margin-top: 25px;
+}
+#right-pane a:nth-child(2) {
+  margin-left: 25px;
+}
+#right-pane a:hover {
+  color: rgb(169, 141, 221);
+}
+#right-pane li {
+  list-style: none;
+  margin-top: 25px;
+}
+#right-pane p {
+  margin: 0 50px;
+}
+#mailing-list {
+  margin-top: 50px;
+}
+
+h2, h3 {
+  font-weight: bolder;
+  color: white;
+  margin: 10px 0 0 10px;
+}
+
+.hidden {
+  display: none;
+}
+#splash-section, main {
+  display: none;
+}
+#filter-section {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  color: white;
+  font-weight: bold;
+}
+.filter-table p {
+  margin-bottom: 25px;
+}
+#filter-button {
+  display: absolute;
+  width: 50px;
+}
+input {
+    margin-bottom: 10px;
+    margin-left: 5px;
+    margin-right: 10px;
+}
+.image{
+  margin: auto;
+  background-color: white;
+}
+#details img {
+  width: 45%;
+  height: auto;
+  float: left;
+  margin: 1em;
+}
+.image:hover {
+  transform: scale(1.2);
+  animation: shake 0.2s;
+  cursor: pointer;
+  max-width: 300px;
+  border-bottom: solid;
+  position: absolute;
+} 
+.walk-table {
+  font-size: xx-small;
+  background-color: lightblue;
+  table-layout: fixed;
+}
+
+.walk-table td{
+  text-align: center;
+}
+.image:hover .walk-table{
+  display: flex;
+  flex-direction: column;
+}
+.image:hover .walk-table tbody{
+  margin: auto;
+}
+
+#list-section { 
+  margin-left: 35px;
+  margin-right: 65px;
+  margin-top: 20px;
+}
+
+#list-detail {
+  display: grid;
+  grid-template-columns: repeat( auto-fit, minmax(250px, 1fr) );
+  grid-auto-flow: dense;
+  gap: 15px;
+  margin-top: 25px;
+  margin-right: 25px;
+  z-index: 400;
+}
+#list-detail img {
+  display: block;
+  width: 100%;
+  z-index: 300;
+}
+
+#list-detail article {
+  border-width: .4em;
+  border-top-style: solid;
+}
+.name {
+  margin: 0.5em 1em;
+  text-align: center;
+}
+
+#google-map {
+  display: block;
+  overflow: hidden;
+  border-radius: 5%;
+  width: 80%;
+  margin: 10px auto 0 auto;
+  aspect-ratio: 1.5 / 1;
+
+}
+ 
+
+#filter-button {
+  margin: 1em;
+  display: none;
+  background-color: blue ;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 16px;
+  width: 8rem;
+  height: 4rem;
+}
+#os-map {
+  aspect-ratio: 1.5 / 1;
+  width: 80%;
+  margin: auto auto;
+  border-radius: 5%;
+  border-color: rgb(94, 83, 83);
+  border-width: 1em;
+  border-style: solid;
+  overflow: hidden;
+}
+#legend {
+  height: 20px;
+  background-color: white;
+  width: 30vw;
+  margin: auto auto ;
+  }
+
+  #legend p {
+    font-size: 1vw;
+    font-weight: bolder;
+    color: black;
+    text-align: center;
+    padding-top: 5px;
+
+  }
+
+.line {
+  height: 5px;
+  color: white;
+  border-bottom: 5px;
+  border-bottom: solid;
+  margin: 0 25px 10px 10px;
+}
+
+.description {
+  color: white;
+  margin: 0 30px 0 10px;
+}
+
+
+
+
+table {
+  padding: 1% 0;
+  border-collapse: separate;
+  border-spacing: 2rem 0;
+}
+td {
+  padding: 5px 0;
+}
+@media screen and (min-width: 600px) {
+  table{
+      border-spacing: 1rem 0;
+ }
+ .topnav h2 {
+  display: none;
+ }
+}
+#big-filter{
+  position: absolute;
+  right: 0;
+  margin-right: 25px;
+  margin-top: 5px;
+  display: inline;
+  width: 64px;
+  height: 64px;
+}
+
+#clear-filter {
+  position: absolute;
+  right: 100px;
+  margin-right: 25px;
+  margin-top: 5px;
+  width: 64px;
+  height: 64px;
+}
+
+#shuffle-walks {
+  position: absolute;
+  right: 100px;
+  margin-right: 25px;
+  margin-top: 5px;
+  width: 64px;
+  height: 64px;
+  background-color: blue;
+  color: white;
+}
+
+/* nav settings */
+.topnav {
+  background-color: rgb(18, 18, 142);
+  overflow: hidden;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+.topnav a:first-child {
+  width: 55px;
+  margin-left: 5px;
+}
+/* Change the color of links on hover */
+.topnav a:hover {
+  background-color: grey;
+  color: white;
+}
+/* Hide the link that should open and close the topnav on small screens */
+.topnav #menu-icon {
+  display: none;
+}
+
+/* The "responsive" class is added to the topnav with JavaScript when the user clicks on the icon. This class makes the topnav look good on small screens (display the links vertically instead of horizontally) */
+@media screen and (max-width: 600px) {
+  .topnav a#menu-icon {
+    float: right;
+    display: block;
+    margin-right: 20px;
+  }
+  .topnav a:not(:first-child) {
+    display: none;
+  }
+
+  .topnav h2 {
+    margin-top: 1em;
+    display: block;
+  }
+
+  .topnav.responsive h2 {
+    display: none;
+  }
+
+h1 {
+    display: none;
+  }
+
+  
+  #filter-button {
+  margin: 0 auto;
+  }  
+  .topnav.responsive {position: relative;}
+  .topnav.responsive #menu-icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  .topnav.responsive a {
+    float: none;
+    display: block;
+  }
+  .topnav.responsive a:not(:first-child) { 
+    text-align: center;
+  }
+  .topnav.responsive a:first-child {
+    text-align: left;
+    margin-left: 7px;
+  }
+}
+  
+header {
+  margin-top: 0;
+  min-height: 50px;
+  width: 100vw;
+  background-color: #048BA8;
+  color: white;
+  font-weight: bold;
+  text-align: center;
+}
+header h1 {
+  font-size: 5vw;
+}
+header h2 {
+  margin-bottom: 0;
+  font-size: 3vw;
+}
+main {
+  position: absolute;
+  margin: 0;
+  top: 0;
+  min-height: 100%;
+  min-width: 100%;
+  background-color: #A4036F;
+  z-index: 0;
+}
+nav {
+  background-color: #0075A2;
+}
+#touch-layer {
+  position: fixed;
+  top: 0;
+  background-color: black;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  z-index: 100;
+}
+#text-layer {
+  position: fixed;
+  top: 0;
+  text-align: center;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  z-index: 50;
+}
+#text-layer p {
+  position: relative;
+  background-color: grey;
+  color: white;
+  top: 30vh;
+  font-family: 'Raleway';
+  font-size: 10vw;
+  rotate: 25deg;
+}
+#base-layer {
+  position: fixed;
+  top: 0;
+  text-align: center;
+  width: 100%;
+  height: 100%;
+  z-index: 25;
+}
+#base-layer img {
+  width: 100%;
+  height: auto;
+}
+
+
+/* Animations for splash screen */
+.marquee {
+  z-index: 600;
+  margin: 25px auto;
+  white-space: nowrap;
+  overflow: hidden;
+  position: absolute;
+  animation-delay: 2s;
+}
+
+.marquee span {
+  display: inline-block;
+  padding-left: 0;
+  animation: marquee 25s linear infinite;
+  animation-delay: unset;
+  z-index: 600;
+}
+
+#scroll-layer p{
+  font-size: larger;
+  font-weight: bolder;
+}
+
+@keyframes marquee {
+  0% {
+    -webkit-transform: translate(0, 0);
+  }
+  100% {
+    -webkit-transform: translate(-100%, 0);
+  }
+}
+
+#details-image {
+  display: block;
+  width: 50vw;
+  margin: 10px auto 0 auto;
+}
+
+#meet-details {
+  color: white;
+}
+
+#details-table {
+  table-layout: fixed;
+  margin: 0 auto 0 auto;
+  font-size: smaller;
+  
+}
+
+
+#div {
+  background-color: lightgreen;
+  display: flex;
+  align-items: center;
+  width: 25%;
+}

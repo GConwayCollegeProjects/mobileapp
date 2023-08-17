@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="icon" type="image/png" href="favicon.png" sizes="32x32">
+    <link rel="stylesheet" href="styles.css">
+    
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+    <title>Cohortology</title>
+</head>
+<body>   
+    <!-- Splash screen using set cookie to make sure does not get re-loaded until browser is closed -->
+    <section id="splash-section" aria-label="Splash Section">       
+        <section id="base-layer" aria-label="Splash Base Layer"></section>
+        <section id="text-layer" aria-label="Splash Text Layer"></section>
+        <section id="scroll-layer" aria-label="Splash Scroll Layer">
+            <p class="marquee">
+                <span>
+                    Welcome to the Wonderful World of Peak District Walks---Click / Touch anywhere to Start----Click / Touch anywhere to Start----
+                    Welcome to the Wonderful World of Peak District Walks---Click / Touch anywhere to Start----Click / Touch anywhere to Start----
+                    Welcome to the Wonderful World of Peak District Walks---Click / Touch anywhere to Start----Click / Touch anywhere to Start----
+                    Click / Touch anywhere to Start-&nbsp;
+                </span>
+            </p>
+        </section>
+        <section id="touch-layer" aria-label="Splash Touch Layer"></section>
+    </section>
+    <main id="main">  
+        <!-- Header Section applies to all visible pages -->    
+        <header id="header-section">
+            <h1>Cohortology</h1>
+           
+            <nav class="topnav" id="myTopnav">
+                <a href="javascript:loadMain()"><i class="fa fa-home"></i></a>
+                <a href="javascript:loadEthels()">My Cohorts</a>
+                <a href="javascript:loadInformation()">My Messages</a>
+                <a href="javascript:void(0);" id="menu-icon" onclick="menuFunction()">
+                    <i class="fa fa-bars"></i>
+                </a>
+            </nav>
+        </header>  
+        <!-- The list section is where all walks are listed with optional filter -->
+        <button id="clear-filter">Clear Filter</button>
+        <button id="shuffle-walks">Shuffle</button>
+        <a id="filter-icon" href="javascript:setFilterOn()">
+            <img id="big-filter" src="images/big-filter.png" alt="Filter Icon" >
+        </a>
+        <section id="list-section">
+            <h2 id="list-heading">Full Cohort List</h2>
+            <section id="filter-section" aria-label="Walk Filter Section">
+                    <ul>
+                        <li>
+                            <label for="distance-input">Maximum Distance:</label>
+                        </li>
+                        <li><input type="range" name="distance" id="distance-input" ></li>
+                        <li><p id="distance-value"></p></li>
+                    </ul>
+                    <ul>
+                        <li>
+                            <label for="ascent-input">Maximum Ascent:</label>
+                        </li>
+                        <li><input type="range" name="ascent" id="ascent-input" ></li>
+                        <li><p id="ascent-value"></p></li>
+                    </ul>
+                    <ul>
+                        <li>
+                            <label for="area">White or Dark Peak?:</label>
+                        </li>
+                        <li>
+                            <select name="area" id="area">
+                                <option value="Both" selected>Both</option>
+                                <option value="White">White</option>
+                                <option value="Dark">Dark</option>
+                            </select>
+                        </li>
+                    </ul>
+                    <ul>
+                        <li>
+                            <label for="grade">Walk Grade:</label>
+                        </li>
+                        <li>
+                            <select name="grade" id="grade">
+                                <option value="All" selected>All</option>
+                                <option value="Easy">Easy</option>
+                                <option value="Moderate">Moderate</option>
+                                <option value="Hard">Hard</option>
+                                <option value="Extreme">Extreme</option>
+                            </select>
+                        </li>
+                    </ul>
+                <button id="filter-button">APPLY</button>
+            </section>
+            <section id="list-detail" aria-label="List of Walks from Data"></section>
+        </section>
+        <!-- The details section is where an individual walk is displayed in detail on a separate page-->
+        <!-- Will be re-factoring this section to get a better seperation of HTML & JS -->
+        <section id="details-section">
+            <h2>Walk Details</h2>
+            <section id="walk-detail" aria-label="Walk Detail"></section>
+        </section>
+        <!-- The Ethels Section is where ethels are listed and explained on a separate page-->
+        <section id="ethel-section">
+            <h2 >Ethels</h2>
+            <h3>Biography of Ethel Haythornthwaite</h3>
+            <div class="line"></div>   
+            <p class="text"><img id="ethel-picture" src="images/ethel.png" alt="Ethel Haythornthwaite">Ethel Haythornthwaite (1894–1986) was an environmental campaigner and pioneer of the countryside movement. In 1924, she founded the group that would become the Friends of the Peak District (FoPD), 
+                aimed at protecting the Peak District countryside from development. The death of her first husband in World War 1 (1917) was the catalyst for Ethel wanting to protect the countryside and make England a good place for the heroes and heroines of both world wars to return to. 
+                In 1928, she fronted the appeal to save Longshaw Estate (now looked after by the National Trust) from development, and later helped acquire land around Sheffield that became its green belt, in 1938. 
+                She spent most of 1942 in London, "leading the national organisation in the crucial early debates on how the post-war reconstruction of the country should be achieved by democratic planning".
+                In 1945, she was appointed to the UK government's National Parks Committee, and helped to make the successful case for the National Parks and Access to the Countryside Act of 1949, which led to the founding of the 
+                Peak District National Park in 1951. She also helped make green belt land part of national government policy in 1955. <i>Source: www.peakdistrict.gov.uk</i></p>
+            <h3>Hill and Mountain Designations</h3>
+            <div class="line"></div>
+            <p class="text">In the UK, hills and mountains are named with various designations relating to their height and prominence over surrounding terrain with the designations often being named after their originator. 
+                These include the Munros, Nesbitts, Hewitts, Wainwrights and the more humourously named Marilyns (english munros). Whilst Ethel Haythornthwaite was not responsible for originating the designation 
+                now named in her honour, it was thought to be a fitting tribute to someone who had given so much to the cause of founding the Peak District and other countryside causes.
+                The Ethels are all the Peak District hilltops over 400m above sea level and some significant lower prominent hills that stand out in their own right. 
+                There are 95 in total. They were suggested in 2021 by Doug Colton of the Sheffield branch of the Campaign for the Protection of Rural England (CPRE) now a national charity whch was founded by Ethel 
+                Haythornthwaite then Ethel Gallimore in 1924. The CPRE have now developed a smartphone app to help people tick them off as they tackle them.
+            </p>
+            <a href="https://www.cprepdsy.org.uk/news/our-peak-district-hill-walking-challenge-walking-the-95-ethels/">
+                <img id="ethel-ready" src="images/ethel-ready.png" alt="CPRE Smartphone App" >
+            </a>
+            <h3>List of Ethels</h3>
+            <div class="line"></div>
+            <section id="ethels-list" aria-label="List of Ethels from Data"></section>
+        </section>
+        <!-- The Information Section / Page is where information sources for the Peak District are provided -->
+        <section id="info-section">
+            <h2>About the Peak District</h2>
+            <h3>Location and History</h3>
+            <div class="line"></div>
+            <aside id="modal" class="modal" aria-label="Modal Image of Peak District Map">
+                <!-- Modal content -->
+                <div class="modal-content">
+                    <span class="close">&times;</span>
+                    <img id="modal-map" src="images/pdmap.jpg"  alt="Peak District Map" >
+                </div>
+            </aside>
+            <p class="text">
+                <a href=# ><img id="peak-map" src="images/pdmap.jpg" height= 300 alt="Peak District Map"></a>
+                <em>T</em>he area we now know as the Peak District was first designated as a National Park in 1951 occupying appoximately 555 sq miles of land to the North of Derby, to the East and South of Manchester and the West of Sheffield. This makes it a similar size to Greater London. Millions of years ago the Peak District was a tropical lagoon. The fossils of tiny sea creatures can be seen today, even at the highest peaks of the National Park.
+                The Peak District was first farmed for sheep, cattle and crops 6,000 years ago. You can still see traces of fields and terraces cultivated in Roman times. By the end of the 20th century there were around half-a-million sheep, cattle and pigs in the Peak District.
+                The name ‘Peak’ does not in fact relate to the region’s uplands, but is thought to derive from the Pecsaetan, an Anglo-Saxon tribe which settled in the area.
+                The lead for white paint in Vermeer’s painting of Girl with a Pearl Earring came from the Peak District.
+                Peveril Castle in Castleton is one of England’s earliest Norman fortresses. The stone keep was built by Henry II in 1176 and is now managed by English Heritage.
+                Thousands of years of human influence can be seen throughout the National Park – in walls and field patterns, buildings, lanes, villages and former railways as well as prehistoric features such as burial mounds and stone circles.
+                London’s landmark Nelson’s Column wasn’t the first memorial to the Battle of Trafalgar. In 1810 Peak District residents erected an impressive obelisk on Birchen Edge near Baslow. Three massive rocks close by - said to resemble ships’ prows - are inscribed with the names Victory, Defiant and Soverin.
+                Sir Richard Arkwright – one of the most important figures in the Industrial Revolution – built an unusual home in the style of a castle at Cressbrook. From here you can walk along the side of the river to the wonderfully named Water-cum-Jolly Dale.
+            </p>
+            <h3>Kinder Trespass</h3>
+            <div class="line"></div>
+            <p class="text">
+                <em>O</em>n 24th April, 1932, hundreds of men and women defied the law to walk over hills and moorland to the plateau of Kinder Scout, Derbyshire, in what would become the Peak District National Park.
+                The protest was led by 20-year-old Benny Rothman, Lancashire secretary of the British Workers’ Sports Federation (BWSF), which organised walks and cycling trips for young workers from Manchester and surrounding mill towns.
+                It followed a confrontation with gamekeepers, three weeks earlier, during a BWSF Easter camp when ramblers attempting to reach another peak, Bleaklow, were turned back.
+                The plan for the Mass Trespass was for ramblers from Manchester to meet up with groups from other places - including Sheffield - at the Kinder plateau.
+                Estimates vary of the numbers taking part - at the time the Manchester Guardian estimated 400 people had been involved in the Mass Trespass.
+                The BWSF had called for a rally in the village of Hayfield on 24th April - but this was a diversion, drawing in one third of the Derbyshire police force, which expected Communist unrest. Meanwhile, trespassers met at Bowden Bridge quarry, with Rothman addressing hundreds of ramblers before they set off.
+                At William Clough, trespassers were confronted by gamekeepers and scuffles broke out. A gamekeeper was injured. The trespassers broke through, running through prohibited land to Kinder plateau and meeting up with ramblers from Sheffield from the 'other side'.
+                Trespassers agreed to walk back to Hayfield ‘with heads held high’ – but police were still there, waiting to make arrests.
+                The arrest of six young men – and subsequent imprisonment of five – unleashed a wave of sympathy for the ramblers and fuelled the ‘right to roam’-movement from which we still enjoy the benefits today.
+            </p>
+            <a id="nt-link" href="https://www.nationaltrust.org.uk/visit/peak-district-derbyshire/kinder-edale-and-the-high-peak/kinder-scout-mass-trespass-walk"><img id="nt-img" src="images/kinder-trespass.png" alt="kinder-scout-mass-trespass-walk"></a>
+            <h3>Maps for the Peak District</h3>
+            <div class="line" ></div> 
+            <section id="maps" aria-label="Maps of the Peak District"></section>
+            <h3>Peak District Books</h3>
+            <div class="line" ></div>
+            <section id="books" aria-label="Book List"></section>
+        </section>
+        <!-- The Footer Section is available on all visible pages and provides a link to the walking group from where
+            the data originates -->
+        <footer id="footer-section">
+            <h2>Join Us!</h2>
+            <section id="banner" aria-label="Banner">
+                <p>
+                    If you like the walks shown on this site why not join our group and enjoy them in the company 
+                    of other like minded individuals. We schedule walks in the wonderful Peak District every week and also 
+                    organise budget walking weekends around the UK and overseas all as part of our thriving not for profit Club. 
+                </p>
+                <section id="banner-links" aria-label="Banner Links" >
+                    <a href="https://www.peakmeetupgroup.com">https://www.peakmeetupgroup.com</a>
+                    <a href="mailto:gordon@peakmeetupgroup.com">gordon@peakmeetupgroup.com</a>
+                </section>
+            </section>
+        </footer> 
+    </main>
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyD6DGSzMlApGero0K0dGd2818_aCPJxYvY&callback=blank" defer></script>
+    <script src="https://cdn.jsdelivr.net/npm/ol@v7.2.2/dist/ol.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/proj4js/2.5.0/proj4.js"></script> 
+    <script src="https://kit.fontawesome.com/6514482561.js" crossorigin="anonymous"></script>
+    <script src="js/scripts.js"></script> 
+</body>
+</html>

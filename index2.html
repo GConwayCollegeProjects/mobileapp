@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/png" href="favicon.png" sizes="32x32">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/ol@v7.2.2/ol.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+    <title>Cohortology</title>
+</head>
+<body>   
+    <main id="main">  
+            <header id="header-section">
+                <h1>Cohortology</h1>
+          
+                <nav class="topnav" id="myTopnav">
+                    <a href="javascript:loadMain()"><i class="fa fa-home"></i></a>
+                    <h2>Cohortology</h2>
+                    <a href="javascript:loadMain()">My Cohorts</a>
+                    <a href="javascript:loadMyDetails()">My Details</a>
+                    <a href="javascript:loadMessages()">Messages</a>
+                    <a href="javascript:void(0);" id="menu-icon" onclick="menuFunction()">
+                    <i class="fa fa-bars"></i>
+                    </a>
+                </nav>
+            </header>  
+            <!-- The list section is where all walks are listed with optional filter -->
+        <button id="clear-filter">Clear Filter</button>
+        <button id="shuffle-walks">Shuffle</button>
+        <a id="filter-icon" href="javascript:setFilterOn()">
+            <img id="big-filter" src="images/big-filter.png" alt="Filter Icon" >
+        </a>
+        <section id="list-section">
+            <h2 id="list-heading">Full Walk List</h2>
+            <section id="filter-section" aria-label="Walk Filter Section">
+                    <ul>
+                        <li>
+                            <label for="distance-input">Maximum Distance:</label>
+                        </li>
+                        <li><input type="range" name="distance" id="distance-input" ></li>
+                        <li><p id="distance-value"></p></li>
+                    </ul>
+                    <ul>
+                        <li>
+                            <label for="ascent-input">Maximum Ascent:</label>
+                        </li>
+                        <li><input type="range" name="ascent" id="ascent-input" ></li>
+                        <li><p id="ascent-value"></p></li>
+                    </ul>
+                    <ul>
+                        <li>
+                            <label for="area">White or Dark Peak?:</label>
+                        </li>
+                        <li>
+                            <select name="area" id="area">
+                                <option value="Both" selected>Both</option>
+                                <option value="White">White</option>
+                                <option value="Dark">Dark</option>
+                            </select>
+                        </li>
+                    </ul>
+                    <ul>
+                        <li>
+                            <label for="grade">Walk Grade:</label>
+                        </li>
+                        <li>
+                            <select name="grade" id="grade">
+                                <option value="All" selected>All</option>
+                                <option value="Easy">Easy</option>
+                                <option value="Moderate">Moderate</option>
+                                <option value="Hard">Hard</option>
+                                <option value="Extreme">Extreme</option>
+                            </select>
+                        </li>
+                    </ul>
+                <button id="filter-button">APPLY</button>
+            </section>
+            <section id="list-detail" aria-label="List of Walks from Data"></section>
+        </section>
+            <section class="hidden" id="my-details-section">
+                <h2>My Details</h2>
+                <img id="profile-picture" src="images/gordonconway.jpg" height=200 alt="Gordon Conway">
+                <p id="profile-text"></p>
+            </section>
+            <section class="hidden" id="message-section">
+                <h2>Messages</h2>
+            </section>
+            <footer id="footer-section">
+                <h2>Other Resources</h2>
+                <section id="left-pane">
+                    <h2 class="hidden">Footer Left Pane</h2>
+                    <ul>
+                        <li>List Item 1</li> 
+                        <li>List Item 2</li> 
+                        <li>List Item 3</li> 
+                        <li>List Item 4</li> 
+                        <li>List Item 5</li> 
+                        <li>List Item 6</li> 
+                    </ul>
+                    <ul>
+                        <li>List Item 1</li> 
+                        <li>List Item 2</li> 
+                        <li>List Item 3</li> 
+                        <li>List Item 4</li> 
+                        <li>List Item 5</li> 
+                        <li>List Item 6</li> 
+                      
+                    </ul>
+                </section>
+                <section id="right-pane">
+                    <h2 class="hidden">Footer Right Pane</h2>
+                    <p></p>
+                </section>     
+            </footer> 
+        </main>
+        <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyD6DGSzMlApGero0K0dGd2818_aCPJxYvY&callback=blank" defer ></script>
+        <script src="https://cdn.jsdelivr.net/npm/ol@v7.2.2/dist/ol.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/proj4js/2.5.0/proj4.js"></script> 
+        <script src="https://kit.fontawesome.com/6514482561.js" crossorigin="anonymous"></script>
+        <script src="js/scripts.js"></script> 
+        <script src="js/php.js"></script>
+   </body>
+</html>
